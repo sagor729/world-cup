@@ -197,3 +197,194 @@ footer a {
     text-decoration: none;
     margin-left: 3%;
 }
+
+.social {
+    color: #b9b6b4;
+    font-size: 27px;
+    margin-top: 28px;
+}
+
+.social i {
+    margin-left: 19px;
+    transition: 1s;
+}
+
+.social i:hover {
+    color: #ffb800;
+}
+
+/* tablet view  */
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    header {
+        height: 400px;
+    }
+
+    .header-content h1 {
+        font-size: 40px;
+    }
+
+    .header-content p {
+        width: 316px;
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .header-content button {
+        width: 161px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .header-banner img {
+        width: 323px;
+        height: 340px;
+        margin-top: 63px;
+
+    }
+
+    .news {
+        flex-direction: column;
+        row-gap: 23px;
+        margin-top: -107px;
+    }
+
+    .news .news-navigation {
+        width: 100%;
+        background: #ffffff;
+        flex-direction: row;
+        height: 97px;
+        justify-content: space-between;
+    }
+
+    .news .news-navigation button {
+        width: 195px;
+        height: 56px;
+        border: 1px solid rgba(232, 232, 232, 1);
+    }
+
+    .news .news-navigation a {
+        font-size: 16px;
+    }
+
+    .detail-news {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1%;
+    }
+
+    footer {
+        height: 345px;
+    }
+
+    footer h1 {
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+
+    footer hr {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    footer a {
+        font-size: 16px;
+        margin-left: 60px;
+        line-height: 34px;
+
+    }
+}
+
+/* -----------mobile view ------------- */
+@media only screen and (min-width:320px) and (max-width: 688px) {
+
+    /* header styles  */
+    header {
+        width: 100%;
+        height: 472px;
+        flex-direction: column;
+    }
+
+    .header-content {
+        width: 71%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-content h1 {
+        font-size: 21px;
+        margin-top: 34px;
+    }
+
+    .header-content p {
+        width: 258px;
+        height: 48px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .header-content button {
+        width: 161px;
+        height: 40px;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .header-banner img {
+        width: 233px;
+        height: 245px;
+    }
+
+    /* news styles  */
+    .news {
+        flex-direction: column;
+        margin-top: -39%;
+
+    }
+
+    .news .news-navigation {
+        width: 100%;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .news .news-navigation button {
+        border: 1px solid rgba(232, 232, 232, 1);
+    }
+
+    .detail-news {
+        width: 100%;
+        height: 390px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .world-cup-news {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 1178px;
+    }
+
+    footer h1 {
+        margin-top: 32px;
+        margin-bottom: 14px;
+    }
+
+    footer hr {
+        margin-bottom: 24px;
+    }
+
+    footer a {
+        display: flex;
+        flex-direction: column;
+        line-height: 41px;
+    }
+}
