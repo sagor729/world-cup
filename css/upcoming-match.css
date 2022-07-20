@@ -180,6 +180,8 @@ footer h1 {
     color: #FFFFFF;
     margin-top: 130px;
     margin-bottom: 50px;
+    padding-top: 100px;
+
 }
 
 footer hr {
@@ -281,6 +283,7 @@ footer a {
     footer h1 {
         margin-top: 70px;
         margin-bottom: 25px;
+        padding-top: 50px;
     }
 
     footer hr {
@@ -376,6 +379,7 @@ footer a {
     footer h1 {
         margin-top: 32px;
         margin-bottom: 14px;
+        padding-top: 21px;
     }
 
     footer hr {
